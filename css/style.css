@@ -91,8 +91,8 @@ h2 {
 
 .header_section.innerpage_header {
   position: relative;
-  background: -webkit-gradient(linear, left top, right top, from(#160e0b), to(#160e0b));
-  background: linear-gradient(to right, #160e0b, #160e0b);
+  background: -webkit-gradient(linear, left top, right top, from(#27163d), to(#27163d));
+  background: linear-gradient(to right, #27163d, #27163d);
   padding: 10px 0;
 }
 
@@ -105,8 +105,8 @@ h2 {
   position: fixed;
   right: 25px;
   top: 15px;
-  width: 50px;
-  height: 50px;
+  width: 149px;
+  height: 46px;
 }
 
 .custom_menu-btn::before {
@@ -116,25 +116,27 @@ h2 {
   right: 0;
   width: 100%;
   height: 100%;
-  background-color: white;
+  background-color: rgb(255, 255, 255);/*
   -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.07);
-          box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.07);
+          box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.07);*/
   z-index: 7;
   border-radius: 100%;
-  -webkit-transition: all .3s;
-  transition: all .3s;
+  -webkit-transition: all .4s;
+  transition: all .4s;
 }
 
-.custom_menu-btn.menu_btn-style::before {
+.custom_menu-btn.menu_btn-style::before { /* this is the bg after pressing menu*/
   width: 100vh;
   height: 100vh;
-  background-color: #160e0b;
+  background-color: #27163d;
   -webkit-transform: scale(5);
           transform: scale(5);
   border-radius: 0;
 }
 
 .custom_menu-btn button {
+  top:530px;
+  right:1292px;
   width: 50px;
   height: 50px;
   outline: none;
@@ -161,13 +163,13 @@ h2 {
 
 .custom_menu-btn button span {
   display: block;
-  width: 30px;
-  height: 3px;
-  background-color: #000000;
+  width: 149px;
+  height: 49px;
+  background-color:#880d0d00;
   margin: 2.5px 0;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  border-radius: 15px;
+  border-radius: 1px;
 }
 
 .custom_menu-btn .s-2 {
@@ -176,22 +178,22 @@ h2 {
 }
 
 .menu_btn-style button span {
-  background-color: #ffffff;
+  background-color: #ffffff00;
 }
 
 .menu_btn-style button .s-1 {
-  -webkit-transform: rotate(45deg) translate(6px, 6px);
-          transform: rotate(45deg) translate(6px, 6px);
+  -webkit-transform: translateX(1000px);
+          transform: translateX(1000px);
 }
 
 .menu_btn-style button .s-2 {
-  -webkit-transform: translateX(100px);
-          transform: translateX(100px);
+  -webkit-transform: translateX(1000px);
+          transform: translateX(1000px);
 }
 
 .menu_btn-style button .s-3 {
-  -webkit-transform: rotate(-45deg) translate(5px, -5px);
-          transform: rotate(-45deg) translate(5px, -5px);
+  -webkit-transform: translateX(1000px);
+          transform: translateX(1000px);
 }
 
 .overlay {
@@ -318,6 +320,8 @@ a:focus {
 
 .slider_section .detail-box .slider-link {
   display: inline-block;
+  width:149px;
+  height:46px;
   padding: 10px 45px;
   background-color: transparent;
   color: #fd9c6b;
@@ -329,8 +333,8 @@ a:focus {
 }
 
 .slider_section .detail-box .slider-link:hover {
-  background-color: #fd9c6b;
-  color: #ffffff;
+  background-color: #fff429;
+  color: #27163d;
 }
 
 .slider_section .slider_bg_box {
@@ -468,7 +472,7 @@ a:focus {
   left: 0;
   width: 250px;
   height: 250px;
-  background-color: #160e0b;
+  background-color: #27163d;
 }
 
 .about_section .detail-box p {
@@ -625,7 +629,7 @@ a:focus {
   bottom: -15px;
   padding: 10px 15px;
   font-size: 18px;
-  background-color: #160e0b;
+  background-color: #27163d;
   margin: 0;
   text-align: center;
   border: 3px solid #ffffff;
@@ -653,15 +657,15 @@ a:focus {
   display: inline-block;
   padding: 10px 30px;
   background-color: transparent;
-  color: #160e0b;
+  color: #27163d;
   border-radius: 0;
-  border: 1px solid #160e0b;
+  border: 1px solid #27163d;
   -webkit-transition: all .2s;
   transition: all .2s;
 }
 
 .blog_section .box .detail-box a:hover {
-  background-color: #160e0b;
+  background-color: #27163d;
   color: #ffffff;
 }
 
@@ -686,7 +690,7 @@ a:focus {
   margin: 45px;
   padding: 35px 25px;
   border-radius: 15px;
-  background-color: #160e0b;
+  background-color: #27163d;
   color: #ffffff;
 }
 
@@ -750,7 +754,7 @@ a:focus {
 
 .client_section .carousel-control-prev:hover,
 .client_section .carousel-control-next:hover {
-  background-color: #160e0b;
+  background-color: #27163d;
 }
 
 .client_section .carousel-control-next {
@@ -758,7 +762,7 @@ a:focus {
 }
 
 .info_section {
-  background-color: #160e0b;
+  background-color: #27163d;
   color: #ffffff;
 }
 
