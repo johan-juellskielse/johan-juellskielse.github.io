@@ -13,6 +13,10 @@ function openNav() {
     document.querySelector(".custom_menu-btn").classList.toggle("menu_btn-style");
 }
 
+function openNav2() {
+    document.getElementById("myNav").classList.toggle("menu_width");
+    document.querySelector(".explore-btn2").classList.toggle("menu_btn-style");
+}
 
 /** google_map js **/
 
