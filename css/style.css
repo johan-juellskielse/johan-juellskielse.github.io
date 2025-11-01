@@ -211,8 +211,8 @@ h2 {
   background-color: transparent;
 
   z-index: 7;
-  -webkit-transition: all .4s;
-  transition: all .4s;
+  -webkit-transition: all .3s;
+  transition: all .3s;
 }
 
 
@@ -223,7 +223,7 @@ h2 {
   background-color: #27163d;
   -webkit-transform: scale(5);
           transform: scale(5);
-  border-radius: 0;
+  /* border-radius: 100%; */
 }
 
 .explore-btn2 button {
